@@ -1,0 +1,74 @@
+
+
+
+
+.Projects-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 100px 0 ;
+}
+.Projects-Parent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Projects-Heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Projects-heading-heading {
+  font-size: 40px;
+  margin: 15px 0 10px 0;
+  color: black;
+  font-family: "Poppins ExtraBold";
+  font-style: bold;
+  font-weight: 700;
+}
+.Projects-heading-subheading {
+  font-size: 20px;
+  margin: 0px 0 10px 0;
+  color: black;
+  font-weight: 700;
+  font-family: "Poppins Thin";
+  font-style: normal;
+  letter-spacing: 3px;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+/* this is for line sprator you can use this in any where */
+.spreator {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(31, 34, 31);
+}
+.seperator-blob {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.seperator-blob div {
+  width: 35px;
+  background-color: var(--dark-orange);
+  border-radius: 10px;
+}
+.heading-seprator {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  margin: 10px 0px 0px;
+}

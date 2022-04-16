@@ -1,0 +1,29 @@
+.Parallax-Container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 250px;
+  width: 100%;
+  min-height: fit-content;
+}
+.Parallax-parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+}
+
+.Parallax-Parallax {
+  background-image: url("../../../public/assets/Home/pabg.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100%;
+  
+  
+}

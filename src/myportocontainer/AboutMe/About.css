@@ -1,0 +1,152 @@
+.About-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.About-Parent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-Heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-heading-heading {
+  font-size: 40px;
+  margin: 15px 0 10px 0;
+  color: black;
+  font-family: "Poppins ExtraBold";
+  font-style: bold;
+  font-weight: 700;
+}
+.About-heading-subheading {
+  font-size: 20px;
+  margin: 0px 0 10px 0;
+  color: black;
+  font-weight: 700;
+  font-family: "Poppins Thin";
+  font-style: normal;
+  letter-spacing: 3px;
+}
+.About-card {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+  box-shadow: rgb(31, 34, 53) 0px 0px 20px -2px;
+  margin: 50px 0 20px 0;
+}
+.About-card-img {
+  min-width: 50%;
+  background-image: url("../../assets/Home/vahidpoor.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+}
+.About-card-text-descript {
+  font-family: "Poppins Light";
+  font-size: 15px;
+  font-weight: 200;
+  text-align: justify;
+  margin: 30px 15px 30px 15px;
+}
+.About-card-text-iteams-heading {
+  margin-bottom: 10px;
+}
+.About-card-text-iteams {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.About-card-text-iteams-iteam {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+}
+.blob {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(255, 88, 35);
+  margin: 0px 10px 0px 0px;
+  border-radius: 50%;
+}
+.about-card-text-btn-cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Copy form buttons.io Liquid */
+button {
+  background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+  background-size: 800% 400%;
+  padding: 10px 20px;
+  margin: 20px 0 20px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+  height: 50px;
+  width: 200px;
+}
+
+button:hover {
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+}
+
+button:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* this is for line sprator you can use this in any where */
+.spreator {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(31, 34, 31);
+}
+.seperator-blob {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.seperator-blob div {
+  width: 35px;
+  background-color: var(--dark-orange);
+  border-radius: 10px;
+}
+.heading-seprator {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  margin: 10px 0px 0px;
+}

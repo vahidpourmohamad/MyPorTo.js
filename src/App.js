@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Home from "./myportocontainer/Home/Home";
+import Menu from "./myportocontainer/Menu/Menu";
+import About from "./myportocontainer/AboutMe/About";
+import Resume from "./myportocontainer/CV/Resume";
+import Projects from "./myportocontainer/Projects/Projects";
+import Footer from "./myportocontainer/Footer/Footer";
+import Parallax from "./myportocontainer/Helper/Parallax";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+      <Home />
+      <About />
+      <Resume />
+      <Parallax />
+      <Projects />
+      <Footer />
     </div>
   );
 }
