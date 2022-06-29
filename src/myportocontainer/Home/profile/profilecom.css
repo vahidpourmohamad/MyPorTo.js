@@ -55,7 +55,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("../../../assets/Home/vahidpoor.jpeg");
+  background-image: url("../../../assets/Home/personal.jpg");
   background-size: cover;
   border-radius: 50%;
   background-position: center;
@@ -69,7 +69,7 @@
   color: white;
   padding: 12px;
   padding-left: 0px;
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .social .social-icon i:hover {
   transform: scale(1.5);
@@ -127,8 +127,7 @@
     width: 270px;
     margin-top: -90px;
   }
-   .profile-detail {
+  .profile-detail {
     width: 90%;
   }
-
 }

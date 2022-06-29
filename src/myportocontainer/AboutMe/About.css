@@ -6,6 +6,12 @@
   align-items: center;
   margin-top: 200px;
 }
+.About-card-text-container {
+  display: Flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
 .About-Parent {
   width: 70%;
   display: flex;
@@ -65,11 +71,12 @@
   display: flex;
   flex-direction: column;
 }
-.About-card-text-iteams-iteam {
+.About-card-text-items-item {
   display: flex;
   flex-direction: row;
   font-size: 12px;
   align-items: center;
+  width: 50%;
 }
 .blob {
   height: 12px;
@@ -83,6 +90,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 /* Copy form buttons.io Liquid */
 button {

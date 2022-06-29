@@ -19,32 +19,77 @@ export default function About() {
           <div className="About-card-img"></div>
           <div className="About-card-text-container">
             <div className="About-card-text-descript">
-              I am Vahid Pourmohammad Shandiz, born in Mashhad (Iran) in 1989.
-              From the beginning, I had a very strange interest in computers, so
-              at first, I managed to install Windows 98 in middle school. In
-              high school, when the new IGI game was popular because I was
-              familiar with the QBasic language, a friend and I formed a team to
-              produce a computer game.
+              Ich bin Vahid Pourmohammad Shandiz ein Senior Full Stack Developer
+              mit mindestens 15 Jahren Erfahrung in der Entwicklung, geboren
+              1989 in Mashhad (Iran). Von Anfang an hatte ich ein sehr seltsames
+              Interesse an Computern, als ich erst 10 Jahre alt war, gelang es
+              mir Microsoft Windows 98 auf dem PC meiner Eltern zu installieren.
+              In der Highschool habe ich das Sprachprogramm Q Basic als Hobby
+              verwendet, schließlich habe ich mich mit der Sprache C++ vertraut
+              gemacht und angefangen, einige sehr einfache Spiele zu entwickeln,
+              aber keines davon wurde veröffentlicht. Im letzten Jahr der
+              Highschool trat ich dem Robotik-Studententeam des Landes bei und
+              arbeitete in diesem Team als Spezialist für Bildverarbeitung. Wir
+              haben einen Titel bei den nationalen Wettbewerben gewonnen, als
+              ich mit 18 Jahren eintrat, ging ich zur Universität und studierte
+              4 Jahre Informationstechnologie-Ingenieurwesen und unterrichtete
+              auch Mathematik und Programmierung als Privatlehrer. Nach dem
+              Studium, in dem Patente und mehrere Anmeldungen erstellt wurden,
+              trat ich als Praktikant in den Arbeitsmarkt ein. Zuerst arbeitete
+              ich als Netzwerkspezialist bei der Toos Ashna Company und dann als
+              Entwickler für Nasim Telekom bzw. Aftab. In dieser Zeit habe ich
+              viele Technologien erlernt und angewendet. 2017 arbeitete ich als
+              Berater bei der Vistan Company und seit 2018 als Executive Manager
+              und Leiter des Entwicklungsteams der Pars Tejarat Makran Company.
+              In diesen Jahren verwende ich verschiedene Sprachen und
+              Technologien, wie: PHP, C++, VB, C#,.net Core, Android Native,
+              Flutter, JavaScript, React, …
             </div>
             <div className="About-card-text-iteams">
               <div className="About-card-text-iteams-heading">
                 <span>This Is My Skills Highlight</span>
               </div>
-              <div className="About-card-text-iteams-iteam">
-                <div className="blob"></div>
-                <span>C#</span>
-              </div>
-              <div className="About-card-text-iteams-iteam">
-                <div className="blob"></div>
-                <span>Java</span>
-              </div>
-              <div className="About-card-text-iteams-iteam">
-                <div className="blob"></div>
-                <span>MERN Developer</span>
-              </div>
-              <div className="About-card-text-iteams-iteam">
-                <div className="blob"></div>
-                <span>AI Enginner</span>
+              <div className="About-card-text-container">
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>C#</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>Java</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>MERNG Developer</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>Python</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>React JS</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>Flutter</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>NextJs</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span> GatsbyJS</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>NodeJS</span>
+                </div>
+                <div className="About-card-text-items-item">
+                  <div className="blob"></div>
+                  <span>AI Enginner</span>
+                </div>
               </div>
             </div>
             <div className="about-card-text-btn-cv">

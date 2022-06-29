@@ -15,40 +15,38 @@ const resumeBullets = [
 
 //here we have
 const programmingSkillsDetails = [
-  { skill: "JavaScript", ratingPercentage: 85 },
-  { skill: "React JS", ratingPercentage: 85 },
-  { skill: "React Native", ratingPercentage: 85 },
-  { skill: "Express JS", ratingPercentage: 89 },
-  { skill: "Node JS", ratingPercentage: 89 },
+  { skill: "JavaScript", ratingPercentage: 100 },
+  { skill: "React JS", ratingPercentage: 90 },
+  { skill: "React Native", ratingPercentage: 70 },
+  { skill: "Express JS", ratingPercentage: 90 },
+  { skill: "Node JS", ratingPercentage: 80 },
   { skill: "Mongo Db", ratingPercentage: 70 },
-  { skill: "Core Java", ratingPercentage: 80 },
-  { skill: "HTML", ratingPercentage: 80 },
-  { skill: "CSS", ratingPercentage: 80 },
+  { skill: "Python", ratingPercentage: 90 },
+  { skill: "C# & C++", ratingPercentage: 70 },
+  { skill: "Flutter", ratingPercentage: 80 },
+  { skill: "GraphQl", ratingPercentage: 80 },
 ];
 
 const projectsDetails = [
   {
-    title: "Personal Portfolio Website",
-    duration: { fromDate: "2020", toDate: "2021" },
-    description:
-      "A Personal Portfolio website to showcase all my details and projects at one place.",
-    subHeading: "Technologies Used: React JS, Bootsrap",
+    title: "CRM Mobile App",
+    duration: { fromDate: "2018", toDate: "present" },
+
+    subHeading: "Technologies Used: ExpressJs,MongoDb, Flutter",
   },
   {
-    title: "Mobile E-shop ",
-    duration: { fromDate: "2020", toDate: "2021" },
-    description:
-      "An ecommerce application designed to sell products online wth payment system integration",
+    title: "Parman Shop",
+    duration: { fromDate: "2020", toDate: "2020" },
+
     subHeading:
       "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
   },
   {
-    title: "Ecommerce Website ",
-    duration: { fromDate: "2020", toDate: "2021" },
-    description:
-      "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+    title: "Chino System ",
+    duration: { fromDate: "2020", toDate: "Present" },
+
     subHeading:
-      "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+      "Technologies Used: Mongo DB, Express Js, React Js, Node JS, Redux, React Native ,C#.",
   },
 ];
 const ResumeHeading = (props) => {
@@ -78,51 +76,63 @@ const ResumeHeading = (props) => {
 const resumeDetails = [
   <div className="resume-screen-container" key="education">
     <ResumeHeading
-      heading={"University of Legon Accra, Ghana"}
+      heading={"Islamic Azad University , Iran"}
       subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-      fromDate={"2014"}
-      toDate={"2018"}
+      fromDate={"2007"}
+      toDate={"2011"}
     />
 
     <ResumeHeading
-      heading={"National Youth Service Corps"}
-      subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
-      fromDate={"2019"}
-      toDate={"2020"}
+      heading={"I3C Center"}
+      subHeading={"Full Stack Developing Full Course"}
+      fromDate={"2015"}
+      toDate={"2017"}
     />
     <ResumeHeading
       heading={"High School "}
-      subHeading={"Command Secondary School Mbiri"}
-      fromDate={"2007"}
-      toDate={"2012"}
+      subHeading={"Kharazmy"}
+      fromDate={"2003"}
+      toDate={"2007"}
     />
   </div>,
 
   /* WORK EXPERIENCE */
-  <div className="resume-screen-container" key="work-experience">
+  <div
+    style={{ marginTop: "50px" }}
+    className="resume-screen-container"
+    key="work-experience"
+  >
     <div className="experience-container">
       <ResumeHeading
-        heading={"Ehizeex Technoloy"}
-        subHeading={"FULL STACK DEVELOPER INTERN"}
-        fromDate={"2021"}
-        toDate={"Present"}
+        heading={"Toos Ashena Technoloy"}
+        subHeading={"Network Administrator"}
+        fromDate={"2010"}
+        toDate={"2013"}
       />
-      <div className="experience-description">
-        <span className="resume-description-text">As A MErn Developer</span>
-        <br />
-      </div>
     </div>
     <div className="experience-container">
       <ResumeHeading
-        heading={"Ehizeex Technoloy"}
-        subHeading={"FULL STACK DEVELOPER INTERN"}
-        fromDate={"2021"}
+        heading={"Nasim Telecom Company"}
+        subHeading={"Windows Developer C#"}
+        fromDate={"2013"}
+        toDate={"2015"}
+      />
+    </div>
+    <div className="experience-container">
+      <ResumeHeading
+        heading={"Aftab Corporation"}
+        subHeading={"Web Developer"}
+        fromDate={"2015"}
+        toDate={"2018"}
+      />
+    </div>
+    <div className="experience-container">
+      <ResumeHeading
+        heading={"Pars Tejarat Makran Company"}
+        subHeading={"Full Stack Developer  And Team Lead"}
+        fromDate={"2018"}
         toDate={"Present"}
       />
-      <div className="experience-description">
-        <span className="resume-description-text">As A MErn Developer</span>
-        <br />
-      </div>
     </div>
   </div>,
 
@@ -143,7 +153,11 @@ const resumeDetails = [
   </div>,
 
   /* PROJECTS */
-  <div className="resume-screen-container" key="projects">
+  <div
+    style={{ marginTop: "40px" }}
+    className="resume-screen-container"
+    key="projects"
+  >
     {projectsDetails.map((projectsDetails, index) => (
       <ResumeHeading
         key={index}
@@ -165,10 +179,6 @@ const resumeDetails = [
     <ResumeHeading
       heading="Music"
       description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
-    />
-    <ResumeHeading
-      heading="Competitive Gaming"
-      description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
     />
   </div>,
 ];
@@ -235,7 +245,7 @@ export default function Resume() {
         <div className="resume-card">
           <div className="resume-bullet-container">
             <div className="bullet-icons"></div>
-                      <div className="bullets">{getBullets()}</div>
+            <div className="bullets">{getBullets()}</div>
           </div>
 
           <div className="resume-bullet-details">{getResumeScreens()}</div>
